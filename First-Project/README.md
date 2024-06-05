@@ -19,7 +19,8 @@ This project consists of two main HTML pages:
 **Blog Post Page**
 
 
-<img width="252" alt="b" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/c25de913-a908-4a8b-b7dc-92e0f09d77b4">
+<img width="739" alt="b" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/52b7e74a-13e2-409c-8215-9b6e7f178ef3">
+
 
 
 ## Features
