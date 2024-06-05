@@ -11,10 +11,14 @@ This project consists of two main HTML pages:
 ## Screenshots
 
 **Home Page**
+
+
 <img width="281" alt="a" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/5f7ba017-0cf2-44ba-bdde-4bb8a7e31942">
 
 
 **Blog Post Page**
+
+
 <img width="252" alt="b" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/c25de913-a908-4a8b-b7dc-92e0f09d77b4">
 
 
