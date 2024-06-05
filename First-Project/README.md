@@ -13,7 +13,8 @@ This project consists of two main HTML pages:
 **Home Page**
 
 
-<img width="281" alt="a" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/5f7ba017-0cf2-44ba-bdde-4bb8a7e31942">
+<img width="781" alt="a" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/8a92c940-7183-4301-bd0a-07b8dee8048b">
+
 
 
 **Blog Post Page**
