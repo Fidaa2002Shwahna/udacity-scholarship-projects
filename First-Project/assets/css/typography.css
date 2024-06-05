@@ -1,0 +1,47 @@
+
+/* ----------------------------start index.html styling--------------------------------- */
+
+/* start header */
+
+.logo {
+  font-size: 1.45em;
+}
+
+.main-nav li a,
+.logo a {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* end header */
+
+/* start main */
+
+.content h3,
+.content p {
+  letter-spacing: 1.1px;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
+
+/* end main */
+
+/* ----------------------------end index.html styling--------------------------------- */
+
+/* ----------------------------start blog-post.html styling--------------------------------- */
+
+/* start title */
+
+.title {
+  letter-spacing: 2px;
+}
+
+.title h2 {
+  font-size: 2rem;
+}
+
+/* end title */
+
+/* ----------------------------end blog-post.html styling--------------------------------- */

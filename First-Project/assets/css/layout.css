@@ -1,0 +1,140 @@
+/* start media query for index.html*/
+
+@media only screen and (max-width: 600px) {
+
+    header,
+    .main-nav,
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+
+    .main-nav li a,
+    .logo a {
+        font-weight: normal;
+    }
+
+    .image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    footer {
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    footer a i {
+        padding-bottom: 17px;
+    }
+
+    @media only screen and (max-width: 276px) {
+        .image {
+            width: 170px;
+            height: 170px;
+        }
+    }
+}
+
+/* end media query for index.html*/
+
+/* start media query for blog-post.html*/
+@media only screen and (max-width: 400px) {
+
+    article h3,
+    article p,
+    article button a {
+        font-size: .7rem;
+    }
+
+    article h3,
+    article p {
+        padding: 5px;
+    }
+
+    article button {
+        padding: 5px;
+        max-width: 40%;
+    }
+
+}
+
+/* end media query for blog-post.html*/
+
+/* ------------------------------------------------------------------ */
+
+/* start header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+}
+
+/* end header */
+
+/* start main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* end main */
+
+/* start footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+}
+
+/* end footer */
+
+/* ------------------------------------------------------------------ */
+
+/* start cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+}
+
+/* end cards */
