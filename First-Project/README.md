@@ -8,21 +8,6 @@ This project consists of two main HTML pages:
 1. **Home Page (index.html)**: Introduces the owner, provides contact links, and includes a personal photo.
 2. **Blog Post Page (blog-post.html)**: Showcases previous projects for me with brief descriptions and links to live demos.
 
-## Screenshots
-
-**Home Page**
-
-
-<img width="781" alt="a" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/8a92c940-7183-4301-bd0a-07b8dee8048b">
-
-
-
-**Blog Post Page**
-
-
-<img width="739" alt="b" src="https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects/assets/121303770/52b7e74a-13e2-409c-8215-9b6e7f178ef3">
-
-
 
 ## Features
 
