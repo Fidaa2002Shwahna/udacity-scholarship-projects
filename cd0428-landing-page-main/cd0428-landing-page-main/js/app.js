@@ -22,14 +22,16 @@ function isInViewport(element) {
 function removeActiveState() {
     sections.forEach(section => {
         section.classList.remove('your-active-class');
-        document.querySelector(`a[href="#${section.id}"]`).classList.remove('active-link');
+        const navLink = document.querySelector(`a[href="#${section.id}"]`);
+        if (navLink) navLink.classList.remove('active-link');
     });
 }
 
 // Function to add active state
 function addActiveState(section) {
     section.classList.add('your-active-class');
-    document.querySelector(`a[href="#${section.id}"]`).classList.add('active-link');
+    const navLink = document.querySelector(`a[href="#${section.id}"]`);
+    if (navLink) navLink.classList.add('active-link');
 }
 
 /**
@@ -71,6 +73,8 @@ function scrollToSection() {
         if (event.target.nodeName === 'A') {
             const targetSection = document.querySelector(event.target.getAttribute('href'));
             targetSection.scrollIntoView({ behavior: 'smooth' });
+            removeActiveState(); // Ensure previous active state is removed
+            addActiveState(targetSection); // Set active state for the clicked section
         }
     });
 }
