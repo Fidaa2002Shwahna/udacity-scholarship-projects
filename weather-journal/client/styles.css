@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
+
+#entryHolder {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#entryHolder div {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
