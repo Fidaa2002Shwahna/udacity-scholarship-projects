@@ -1,8 +1,0 @@
-# Node modules
-node_modules/
-
-# Distribution directory
-dist/
-
-# Environment files
-.env
