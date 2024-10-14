@@ -45,7 +45,7 @@ node -v
    ```bash
    git clone https://github.com/Fidaa2002Shwahna/udacity-scholarship-projects.git
 
-   cd udacity-scholarship-projects
+   cd udacity-scholarship-projects/travel-planner-app-main
    ```
 2. **Install dependencies:**
    ```bash
